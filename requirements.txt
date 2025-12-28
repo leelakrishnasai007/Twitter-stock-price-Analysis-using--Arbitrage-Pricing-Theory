@@ -1,15 +1,23 @@
+# requirements.txt
+# Install everything with:
+#   pip install -r requirements.txt
+#
+# What these packages do:
+# - pandas, numpy        : data loading + calculations
+# - matplotlib, seaborn  : plotting graphs
+# - statsmodels          : time-series tools (decomposition, statistical models)
+# - pmdarima             : auto-ARIMA model selection
+# - scikit-learn         : utilities/metrics (used in some steps)
+# - tqdm                 : progress bars
+# - jupyter, ipykernel   : run the notebook locally
+
 pandas
-
 numpy
-
 matplotlib
-
 seaborn
-
 statsmodels
-
 pmdarima
-
 scikit-learn
-
 tqdm
+jupyter
+ipykernel
